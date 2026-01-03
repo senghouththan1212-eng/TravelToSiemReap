@@ -1,0 +1,24 @@
+/* .carousel {
+  width: 500px; /* adjust container size */
+  /* height: 400px;
+  overflow: hidden;
+  border: 1px solid #cb2828;
+  position: relative;
+  cursor: grab;
+}
+.d-block {
+  width: 100%;
+  transition: transform 0.3s ease;
+  transform-origin: center center;
+} */
+
+.carousel {
+  width: 100vm;          /* full browser width */
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 500px;
+  height: auto;
+  display: block;
+}

@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Battambang'; /* Name to use in CSS */
+  color: brown;
+  src: url('../fonts/Battambang/Battambang-Regular.ttf'); /* Font file location */
+}
+@font-face {
+    font-family: 'Koulen';
+    color: brown;
+    src: url('../fonts/Koulen/Koulen-Regular.ttf');
+}
+body{
+    font-family: Battambang, sans-serif;
+    font-display: auto;
+    color: blue;
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+    font-family: Koulen, sans-serif;
+}
+a.nav-link,
+a.nav-link.active{
+    font-family: "Koulen" sans-serif;
+    font-size: 1.5rem;
+    color: rgb(79, 28, 207) important;
+}
+.selector {
+  color: red;
+}
+/* .card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+} */
